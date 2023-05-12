@@ -10,12 +10,12 @@ For this session, we'll learn control flow and logical operators.
 
 - [Requirements](#requirements)
 - [Tools and version](#tools-and-versions)
-- [Project:](#project)
+- [Projects: even/odd, rollercoaster, BMI 2.0, leap year](#project)
 - [Some tips](#tips)
 
 - Useful resources :
 
-- [Sources](#sources)
+  - [Sources](#sources)
 
 ## Requirements
 
@@ -56,6 +56,10 @@ Find the flow chart:
 
 ![flowchart](./__docs__/flowchart.png)
 
+<details>
+
+<summary>Solution</summary>
+
 ```python
 if height > 120:
     print("You can ride the rollercoaster!")
@@ -68,7 +72,9 @@ if height > 120:
 else:
     print("Sorry, you have to grow taller before you can ride.")
 ```
+</details>
 
+---
 ### BMI 2.0 challenge
 
 ```python
@@ -88,7 +94,7 @@ elif bmi < 35:
 else:
     print(f"According to your BMI which is {bmi}, your are clinically obese!")
 ```
-
+---
 ### Leap year challenge
 
 A year is a leap year if the year is evenly divisible by 4 EXCEPT every year that is evenly divisible by 100 UNLESS the year is also evenly divisible by 400.
@@ -97,7 +103,9 @@ Here's the flow chart
 
 ![flow chart leap year](./__docs__/flowchart-leapyear.png)
 
-Solution:
+<details>
+
+<summary>Solution</summary>
 
 ```python
 year = int(input("Which year do you want to check? \n"))
@@ -113,6 +121,9 @@ if (year % 4) == 0:
 else:
     print(f"This year {year} is not a leap year!")
 ```
+</details>
+
+---
 
 ### Rollercoaster 2.0
 
@@ -159,6 +170,7 @@ else:
 
 </details>
 
+---
 ## Tips
 
 ### IF/ELSE statements
