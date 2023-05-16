@@ -251,6 +251,9 @@ Big big flow chart:
 
 ![flowchart treasure island](./__docs__/flowchart_treasure-island.png)
 
+Result game:
+
+![gif treasure island](./__docs__/treasure-island.gif)
 ---
 
 ## Tips
