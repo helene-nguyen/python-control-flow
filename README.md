@@ -309,3 +309,6 @@ not E => reverse the condition
 ---
 
 ## Sources
+
+- [Create ASCII draws](https://fsymbols.com/draw/)
+- [TLdraw for flowcharts](https://www.tldraw.com/)
