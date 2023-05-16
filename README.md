@@ -171,6 +171,16 @@ else:
 </details>
 
 ---
+
+### Pizza order program
+
+Flowchart
+
+![flowchart pizza delivery](./__docs__/flowchart-pizza.png)
+
+
+
+---
 ## Tips
 
 ### IF/ELSE statements
