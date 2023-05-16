@@ -10,7 +10,14 @@ For this session, we'll learn control flow and logical operators.
 
 - [Requirements](#requirements)
 - [Tools and version](#tools-and-versions)
-- [Projects: even/odd, rollercoaster, BMI 2.0, leap year](#project)
+- [Projects](#project)
+  - even/odd
+  - rollercoaster
+  - BMI 2.0
+  - leap year
+  - pizza order program
+  - love calculator
+  - treasure island
 - [Some tips](#tips)
 
 - Useful resources :
@@ -72,9 +79,11 @@ if height > 120:
 else:
     print("Sorry, you have to grow taller before you can ride.")
 ```
+
 </details>
 
 ---
+
 ### BMI 2.0 challenge
 
 ```python
@@ -94,7 +103,9 @@ elif bmi < 35:
 else:
     print(f"According to your BMI which is {bmi}, your are clinically obese!")
 ```
+
 ---
+
 ### Leap year challenge
 
 A year is a leap year if the year is evenly divisible by 4 EXCEPT every year that is evenly divisible by 100 UNLESS the year is also evenly divisible by 400.
@@ -121,6 +132,7 @@ if (year % 4) == 0:
 else:
     print(f"This year {year} is not a leap year!")
 ```
+
 </details>
 
 ---
@@ -178,9 +190,69 @@ Flowchart
 
 ![flowchart pizza delivery](./__docs__/flowchart-pizza.png)
 
+<details>
 
+<summary>Solution</summary>
+
+```python
+print("Welcome to Python Pizza deliveries!")
+size = input("What size pizza do you want? S, M, or L? \n")
+add_pepperoni = input("Do you want to add pepperoni? Y or N \n")
+add_extra_cheese = input("Do you want to add extra cheese? Y or N \n")
+price = 0
+
+if size == "S":
+    price = 15
+elif size == "M":
+    price = 20
+else:
+    price = 25
+
+if add_pepperoni == "Y":
+    if size == "S":
+        price += 2
+    else:
+        price += 3
+
+if add_extra_cheese == "Y":
+    price += 1
+
+
+print(f"The total bill is ${price}.")
+```
+
+</details>
+
+### Love calculator
+
+Use logical operators by creating a love calculator.
+
+Instructions: Enter the full names of both people you want to check the Love Score for and the calculator will give you the percentage of Love Score match
+
+Example:
+
+![example love calculator](./__docs__/example_love-program.png)
+
+For this challenge, we will use following functions:
+
+```python
+str()
+int()
+input()
+count()
+
+concatenation
+logical operators
+```
+
+### Main program: Treasure Island
+
+Big big flow chart:
+
+![flowchart treasure island](./__docs__/flowchart_treasure-island.png)
 
 ---
+
 ## Tips
 
 ### IF/ELSE statements
@@ -224,6 +296,14 @@ if condition2:
   do B
 if condition3:
   do C
+```
+
+### Logical operators
+
+```txt
+A and B => both have to be true
+C or D => at least one have to be true
+not E => reverse the condition
 ```
 
 ---

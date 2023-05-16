@@ -15,6 +15,8 @@ if height > 120:
     elif age <= 18:
         print(f"Youth ticket price is ${youth_ticket}.")
         total_price = youth_ticket
+    elif age >= 45 and age <=55:
+        total_price = 0  
     else:
         print(f"Adult ticket price is ${adult_ticket}.")
         total_price = adult_ticket
